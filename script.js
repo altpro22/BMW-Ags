@@ -15,7 +15,7 @@ const CONFIG = {
     facebook: "https://www.facebook.com/BMWMexico",
     instagram: "https://www.instagram.com/bmwdemexico/",
     maps: "https://maps.app.goo.gl/avD93uqR5V6j7Ryx8", 
-    youtubeUrl: "https://www.youtube.com/watch?v=0xI2WscUU4A",
+    youtubeUrl: "https://www.youtube.com/watch?v=2_I3nRyYehM",
     textos: {
         cat1: { t: "QUIÉNES SOMOS", c: "BMW Euromotors de Aguascalientes redefine la movilidad premium en la región, ofreciendo vehículos de alta ingeniería, deportividad pura, seguridad de vanguardia y un diseño sofisticado que eleva la experiencia de conducción diaria al verdadero placer de conducir." },
         cat2: { t: "EXCELENCIA", c: "Explora nuestra gama de servicios automotrices premium: Venta de vehículos nuevos de la línea BMW, planes de financiamiento corporativos y a tu medida, pruebas de manejo personalizadas, taller mecánico de alta especialización y venta de refacciones originales." },
@@ -152,7 +152,7 @@ function closeLightbox() { document.getElementById('lightbox').style.display = '
 function closeAppContent() { document.getElementById('dynamic-content-layer').style.display = 'none'; }
 function closeTextZoom() { document.getElementById('text-zoom-modal').style.display = 'none'; }
 function openBrandModal(modalId) { playClick(); const modal = document.getElementById(modalId); if (modal) modal.style.display = 'flex'; }
-function closeBrandModal(modalId) { const modal = document.getElementById(modalId); if (modal) modal.style.none = 'none'; }
+function closeBrandModal(modalId) { const modal = document.getElementById(modalId); if (modal) modal.style.display = 'none'; }
 function playClickSound() { playClick(); }
 
 function toggleAudioGlobal() {
